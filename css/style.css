@@ -2,11 +2,11 @@
 
 /* COLORS */
 :root {
-    --black: #1B1F23;
+    --black: #16161a;
     --white: #FAFAFA;
-    --gray-01: #E1E4E8;
-    --gray-02: #959DA5;
-    --gray-03: #586069;
+    --gray-01: #2F363D;
+    --gray-02: #586069;
+    --gray-03: #959DA5;
     --gray-04: #2F363D;
 }
 
@@ -93,7 +93,7 @@ p, li {
 }
 a {
     text-decoration: none;
-    color: inherit;
+    color: #72757e;
     transition: 0.28s;
 }
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, li::selection, a::selection, span::selection, br::selection, strong::selection, img::selection, html::selection {
@@ -152,7 +152,7 @@ h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::s
     color: var(--white);
 }
 .link:hover {
-    opacity: 0.6;
+    opacity: 1;
     transition: 0.28s;
 }
 
@@ -190,12 +190,12 @@ h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::s
 
 /* GLOBAL */ 
 html {
-    color: var(--black);
-    background: var(--white);
+    color: var(--white);
+    background: var(--black);
     overflow-x: hidden;
     margin: 3vw 6vw;
     
-    animation: 1.0s ease-in fade-in;
+    
 }
 img {
     -webkit-user-drag: none;
@@ -490,7 +490,7 @@ footer p a:hover {
     transition: 0.28s;
 }
 .back:hover {
-    opacity: 1;
+    opacity: 0;
     transition: 0.28s;
 }
 .back.no-display {
